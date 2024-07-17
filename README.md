@@ -25,7 +25,6 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/Shnikbakht/VotingSystem.git
-cd voting-system
 ```
 
 ## Install dependencies:
