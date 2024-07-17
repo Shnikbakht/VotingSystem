@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title VotingSystem
  * @dev A smart contract for decentralized voting system.
+ * @author Shahla Nikbakht
  */
 contract VotingSystem {
     mapping(address => bool) private hasVoted;
