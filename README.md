@@ -59,14 +59,20 @@ Replace sepolia with your desired Ethereum network if different.
 ## Event Listening
 
 Start listening for VoteCast events emitted by the deployed contract on the Sepolia network:
-`sh npx hardhat run scripts/listen.js --network sepolia`
+
+```sh
+npx hardhat run scripts/listen.js --network sepolia
+```
+
 This command sets up an event listener to monitor and log new vote transactions.
 
 ## Contract Interaction
 
 To interact with the deployed contract (e.g., adding candidates or querying vote counts):
+
+```sh
 npx hardhat run scripts/interact.js --network sepolia
-Modify scripts/interact.js to include specific contract interaction functionalities as needed.
+```
 
 ## Project Structure
 
