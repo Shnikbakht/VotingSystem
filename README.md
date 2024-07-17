@@ -51,7 +51,7 @@ To compile and deploy the smart contract to the Sepolia network:
 
 ```sh
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
+npx hardhat run ignition/modules/deploy.js --network sepolia
 ```
 
 Replace sepolia with your desired Ethereum network if different.
@@ -61,7 +61,7 @@ Replace sepolia with your desired Ethereum network if different.
 Start listening for VoteCast events emitted by the deployed contract on the Sepolia network:
 
 ```sh
-npx hardhat run scripts/listen.js --network sepolia
+npx hardhat run ignition/modules/listen.js --network sepolia
 ```
 
 This command sets up an event listener to monitor and log new vote transactions.
@@ -71,14 +71,14 @@ This command sets up an event listener to monitor and log new vote transactions.
 To interact with the deployed contract (e.g., adding candidates or querying vote counts):
 
 ```sh
-npx hardhat run scripts/interact.js --network sepolia
+npx hardhat run ignition/modules/interact.js --network sepolia
 ```
 
 ## Project Structure
 
 contracts/: Solidity smart contract files.
 
-ignition/modules/: Deployment (deploy.js), event listening (listen.js), and contract interaction (interact.js) scripts.
+ignition/modules/: Deployment (deploy.js), event listening (listen.js), and contract interaction (interact.js).
 
 artifacts/: Compiled contract JSON files.
 

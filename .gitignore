@@ -1,6 +1,7 @@
 node_modules
 .env
 vote-hardhat.rar
+vote-hardhat.zip
 
 # Hardhat files
 /cache
